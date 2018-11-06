@@ -1,8 +1,12 @@
 <h2> 😈 Title: <%= @article.title %> 😈 </h2>
 
-<%= @article.content %>
-<br>
-<p class="btn btn-success"><%= link_to "Update this article", edit_article_path(@article)%></p>
+<p class="content-text"> <%= @article.content %> </p>
+
+<div class="empty"></div>
+
+<div class="center"> <p class="btn btn-success"><%= link_to "Update this article", edit_article_path(@article)%></p> </div>
+
+<div class="empty"></div>
 
 <p>Or go back to the main page:</p>
-<p class="btn btn-success"><%= link_to "Go back", articles_path %></p>
+<p class="btn btn-info"><%= link_to "Go back", articles_path %></p>

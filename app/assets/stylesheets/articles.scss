@@ -23,8 +23,33 @@ body {
 }
 }
 
+.content-text {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgba(60, 60, 60, 0.7);
+  font-size: 18px;
+}
+
+a {
+  color: rgba(60, 60, 60, 0.6);
+  &:hover {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+  }
+}
+
 .btn-danger {
   margin: 0px 20px;
+}
+
+.btn-primary, .btn-success {
+  width: 80%;
+  text-align: center;
+  margin: 10px 0px 24px 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 h1, h2 {
@@ -57,4 +82,20 @@ h1 {
 
 .empty {
   height: 20px;
+}
+
+.input-form {
+  margin: 0px;
+  color: rgba(50, 50, 50, 0.8);
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#article_title {
+  width: 100%;
+}
+
+#article_content {
+  width: 100%;
+  height: 30vh;
+  padding-bottom: 24vh;
 }

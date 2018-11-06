@@ -1,11 +1,14 @@
 <%= form_for(@article) do |f| %>
 <div class="form-group">
-  <%= f.label :title %>
+  <p class="input-form"> <%= f.label :title %> </p>
   <%= f.text_field :title %>
 </div>
 <div class="form-group">
-  <%= f.label :content %>
-  <%= f.text_field :content %>
+  <p class="input-form"> <%= f.label :content %> </p>
+  <p class="content"><%= f.text_field :content %></p>
 </div>
   <%= f.submit class: 'btn btn-primary'%>
 <% end %>
+
+
+<!-- "Let's go! 🚀" -->

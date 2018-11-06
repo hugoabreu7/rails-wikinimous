@@ -1,4 +1,4 @@
-<h2> 😵 Edit <%= @article.title %> 😵 </h2>
+<h2> 😵 Edit "<%= @article.title %>" 😵 </h2>
 
 <%= render 'form', article: @article %>
 <p class="btn btn-danger" style="margin: 20px 0px"><%= link_to "Changed my mind 😥", article_path(@article) %></p>
