@@ -1,0 +1,60 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+body {
+  padding: 10px;
+  height: 100%;
+  background: linear-gradient(rgba(115, 226, 167, 0.4), rgba(236, 243, 158, 0.7));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgba(50, 50, 50, 0.9);
+}
+
+.btn {
+  a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+}
+
+.btn-danger {
+  margin: 0px 20px;
+}
+
+h1, h2 {
+  padding: 0px 0px 20px 0px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.title_text {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0px 20px;
+  display: inline;
+  margin: 0px;
+}
+
+.box {
+  padding: 6px 0px 6px 0px;
+  margin: 0px 0px 2px 0px;
+  border: 1px solid rgba(20, 20, 20, 0.1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empty {
+  height: 20px;
+}

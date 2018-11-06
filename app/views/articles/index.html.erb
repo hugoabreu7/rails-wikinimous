@@ -1,0 +1,15 @@
+<h1>😍 Articles list 😍</h1>
+
+<p class="btn btn-primary"> <%= link_to "Create a new article", new_article_path %> </p>
+
+<div class="empty"></div>
+
+<% @articles.each do |article| %>
+<div class="box">
+  <p class="title_text"> <%= link_to article.title, article_path(article)%> </p>
+  <p class="btn btn-danger"> <%= link_to "Delete", article_path(article),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %></p>
+</div>
+<% end %>
+
